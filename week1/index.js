@@ -68,7 +68,7 @@ console.log("\nValue of array-add-num from package-lock.json: ", pkg.dependencie
 
 // Function as is
 function multiplyNums(x, y, z){
-    return("new number is" + x * y * z);
+    return("new number is " + x * y * z);
     }
 
 const arrowMultiplyNums = (x, y, z) => ("new number is " + (x * y * z));
